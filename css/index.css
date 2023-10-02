@@ -3,6 +3,12 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 body{
@@ -13,8 +19,9 @@ body{
     transition: background-color .5s ease;
 }
 
-.container{
-    margin-left: 150px;
+.icon{
+    color: #0D313A;
+    font-size: 26px;
 }
 
 .wrapper{
@@ -26,8 +33,7 @@ body{
 
 .left-container{
     padding: 30px;
-    min-width: 455px;
-    max-width: 455px;
+    width: 455px;
 }
 
 .right-container{
@@ -80,4 +86,25 @@ body{
 
 .projects-container h2{
     font-size: 32px;
+}
+
+
+
+.my-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.hardskills-container, .contacts-container {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.contacts-container h3{
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
 }
